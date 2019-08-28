@@ -1,0 +1,139 @@
+﻿body {
+    margin:0;
+    padding:0;
+}
+
+/*index--begin*/
+.mainNav li>a{
+    font-weight:600;
+}
+
+
+#head {
+	/*background: #181015 url( ../images/bg_header.jpg) no-repeat;*/
+	background-size: cover;
+	height: 450px;
+	text-align: center;
+	color: white;
+	font-weight: 300;
+	position: relative;
+	background-position-x: center;
+}
+
+.thumbnail>img {
+width:100%;
+height:250px;
+}
+
+
+#head {
+	height: 450px;
+}
+
+.fluid_container {
+	height: 100%;
+	
+}
+
+
+#footer {
+	background: #282828;
+	margin-top: 40px;
+}
+
+#footer a {
+    font-size:20px;
+	color: #999;
+    list-style:none;
+}
+#footer p {
+	color: #575757;
+}
+
+#footer a:hover {
+	color: #fff;
+    list-style:none;
+}
+
+
+/*index--end*/
+
+
+/*about--begin*/
+.img-responsive {
+    width:100%;
+    height:170px;
+
+}
+/*about--end*/
+
+
+/*product--begin*/
+.imgcontainer {
+    position:relative;
+}
+.imgname {
+    position:absolute;
+    bottom:0;
+    left:0;
+    text-align:center;
+    width:100%;
+    color:white;
+}
+.title {
+   color: #028ed6;
+    /*position: relative;*/
+    font-size: 1.265em;
+    font-weight: bold;
+    /*margin: 0 0 1.5em 0;*/
+    background: #e2eaf4;
+    padding: 1em 1.7%;
+}
+.portfolio-item {
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+  height:180px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.portfolio-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
+
+ .portfolio-item img {
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+  width: 100%;
+  height:100%;
+}
+
+ .portfolio-item:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+  .portfolio-item:hover .portfolio-overlay {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+  .portfolio-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/*product--end*/
